@@ -23,6 +23,7 @@ There are basically 2 types of Scaling methods :
 - Vertical Scaling
 - Horizontal Scaling
 <br>
+
 1) Vertical Scaling :
 - Vertical scaling is the process of increasing the capacity of a single machine by adding more resources to a single server such as memory, storage etc. 
 - It is also known as Scale up approach. 
@@ -30,3 +31,5 @@ There are basically 2 types of Scaling methods :
 <div align="center">
   <img src="static/V_S.png" alt="Vertical Scaling">
 </div>
+
+
