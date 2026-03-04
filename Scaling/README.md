@@ -168,3 +168,8 @@ There are basically 2 types of Scaling methods :
   <img src="static/HvsS.png" alt="Difference">
 </div>
 <br> 
+
+## Thank You
+Thank you for being with me for this tutorial. Hope you learnt something new and it wasn't too confusing. Hope to see you soon in my next tutorial. Till then keep coding!!!👋
+
+<b>NOTE: </b> If u find any error or something missing kindlt mail to kadagadakai.adit06@gmail.com . Thank you!
