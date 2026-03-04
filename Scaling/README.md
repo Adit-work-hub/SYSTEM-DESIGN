@@ -18,6 +18,22 @@ We in this tutorial use a very simple hello {name} application built using FastA
   <img src="static/Res.png" alt="Response">
 </div>
 
+## Benching Script:
+To measure the scaling impact I created a benchmark script:
+
+<div align="center">
+  <img src="static/Script.png" alt="script">
+</div>
+
+What does this script do basically? 
+- Sends 10,000 total requests
+- With 1000 concurrent users
+- Measures:
+  - Requests per second
+  - Failed requests
+  - Time per request
+  - Transfer rate
+
 ## Scaling
 Scaling is one of the important topics in System design or System architecture.Scaling is a basically a process to increase the System Capacity so it can handle more traffic and work load.
 <br> 
