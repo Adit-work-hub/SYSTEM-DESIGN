@@ -82,6 +82,22 @@ There are basically 2 types of Scaling methods :
 
 <br> 
 
+### Vertical Scaling demonstration: 
+<b>Step 1: </b> We run the command: uvicorn main:app --reload and then execute the Script.sh script using ./Script. This is the outcome we observe:
+
+<div align="center">
+  <img src="static/OP1.png" alt="Output 1">
+</div>
+<br>
+
+<b>Step 2: </b> Increase workers (vertical scaling). Assuming each laptop has 8 CPU cores, we now run the backend using the command : uvicorn main:app --workers 8 and running the Script again we observe: 
+
+<div align="center">
+  <img src="static/OP2.png" alt="Output 2">
+</div>
+
+<b>Conclusion: </b> The result is clearly evident and visible. The time taken and the statistics of the time taken for each request to be sent is drastically changed after we increased the workers, ie - Vertical Scaling. 
+
 ### Horizontal Scaling :
 - Horizontal scaling is a process of increasing the the capacity or performance of an application by adding more machines or servers so the incoming workload or the requests are distributed across a large number of servers.
 - It is also known as Scaling out approach. 
