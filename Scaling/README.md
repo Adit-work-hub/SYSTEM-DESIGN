@@ -1,4 +1,4 @@
-# INTRO TO SCALING
+# Introduction to Scaling - Adit K
 This README file is to introduce users to the most important prt of System design or system architecture - Scaling. We will understand what is Scaling and the types of Scaling using a simple example built by using FastAPI. 
 
 ## The example application
@@ -25,7 +25,7 @@ To measure the scaling impact I created a benchmark script:
   <img src="static/Script.png" alt="script">
 </div>
 
-What does this script do basically? 
+<b>What does this script do basically?</b> 
 - Sends 10,000 total requests
 - With 1000 concurrent users
 - Measures:
