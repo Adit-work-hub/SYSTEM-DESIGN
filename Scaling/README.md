@@ -22,7 +22,7 @@ As the nummber of users increase, the server gets more requests, which can cause
 There are basically 2 types of Scaling methods :
 - Vertical Scaling
 - Horizontal Scaling
-
+<br>
 1) Vertical Scaling :
 - Vertical scaling is the process of increasing the capacity of a single machine by adding more resources to a single server such as memory, storage etc. 
 - It is also known as Scale up approach. 
