@@ -1,4 +1,24 @@
-# Scaling
+# INTRO TO SCALING
+This README file is to introduce users to the most important prt of System design or system architecture - Scaling. We will understand what is Scaling and the types of Scaling using a simple example built by using FastAPI. 
+
+## The example application
+We in this tutorial use a very simple hello {name} application built using FastAPI. 
+
+<div align="center">
+  <img src="static/Code.png" alt="FastAPI code">
+</div>
+
+<b>Example Request: </b>
+<div align="center">
+  <img src="static/Code_2.png" alt="FastAPI code">
+</div>
+
+<b>Example Response: </b>
+<div align="center">
+  <img src="static/Res.png" alt="Response">
+</div>
+
+## Scaling
 Scaling is one of the important topics in System design or System architecture.Scaling is a basically a process to increase the System Capacity so it can handle more traffic and work load.
 <br> 
 As an application grows, the number of users, requests, and data also increases and if the system is not designed in a efficient way (scaled properly), it may cause the application to run slow, crash frequently and also stop working sometimes.
