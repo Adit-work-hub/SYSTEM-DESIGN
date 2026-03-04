@@ -32,5 +32,9 @@ There are basically 2 types of Scaling methods :
   <img src="static/V_S.png" alt="Vertical Scaling">
 </div>
 
+<u><b>Advantages: </b></u>
+- <b>Increased capacity: </b> A server's performance and ability to manage incoming requests can both be enhanced by upgrading its hardware.
+- <b>Easier management: </b> Upgrading a single node is usually the focus of vertical scaling, which might be simpler than maintaining several nodes.
+
 
 2) 
