@@ -31,10 +31,48 @@ There are basically 2 types of Scaling methods :
 <div align="center">
   <img src="static/V_S.png" alt="Vertical Scaling">
 </div>
+<br> 
 
 <u><b>Advantages: </b></u>
 - <b>Increased capacity: </b> A server's performance and ability to manage incoming requests can both be enhanced by upgrading its hardware.
 - <b>Easier management: </b> Upgrading a single node is usually the focus of vertical scaling, which might be simpler than maintaining several nodes.
 
+<br>
 
-2) 
+<u><b>Disadvantages: </b></u>
+- <b>Limited Scalability: </b> Vertical scaling is constrained by the hardware's physical limitations. Horizontal Scaling is not limited.
+- One server still receives all incoming requests thus increasing the possibility of downtime in the event of a server failure.
+- Scaling up often requires restarting or replacing the machine, causing downtime.
+
+<br> 
+
+### Horizontal Scaling :
+- Horizontal scaling is a process of increasing the the capacity or performance of an application by adding more machines or servers so the incoming workload or the requests are distributed across a large number of servers.
+- It is also known as Scaling out approach. 
+
+<div align="center">
+  <img src="static/H_S.png" alt="Horizontal Scaling">
+</div>
+<br> 
+
+<u><b>Advantages: </b></u>
+- <b>Increased capacity: </b> More nodes or instances can handle a larger number of incoming requests.
+- <b>Improved performance: </b> By distributing the load over several nodes or instances, it is less likely that any one server will get overloaded.
+- <b>Increased fault tolerance: </b> Incoming requests can be sent to another node in the event of a node failure, lowering the possibility of downtime.
+
+<br>
+
+<u><b>Disadvantages: </b></u>
+- Requires complex architecture (load balancers, distributed databases, etc.).
+- More machines = more networking, power, and maintenance.
+- Needs orchestration tools (e.g., Kubernetes, Ansible) to manage many servers.
+- Communication between nodes adds latency and complexity.
+- Issues can be spread across nodes, making root-cause analysis tricky.
+
+<br> 
+
+### Core differences between Horizontal and Vertical scaling: 
+<div align="center">
+  <img src="static/HvsS.png" alt="Difference">
+</div>
+<br> 
